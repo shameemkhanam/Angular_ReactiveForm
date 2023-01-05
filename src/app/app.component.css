@@ -1,0 +1,54 @@
+input[type=text],[type=email], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: #4caf50;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(37, 84, 22);
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 420px;
+  margin: 10px auto;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
+
+small{
+  color: red;
+}
+
+.myForm.INVALID{
+  border: 1px solid red;
+  box-shadow: 0 0 31px rgba(255,0,0,0.7) !important;
+}
+.myForm.PENDING{
+  border: 1px solid yellow;
+  box-shadow: 0 0 31px rgba(255,235,0,0.7) !important;
+}
+.myForm.VALID{
+  border: 1px solid green;
+  box-shadow: 0 0 31px rgba(78,233,84,0.7) !important;
+}
